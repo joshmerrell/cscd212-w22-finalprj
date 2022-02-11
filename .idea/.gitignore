@@ -8,5 +8,4 @@
 /dataSources.local.xml
 
 # recommended by gitignore.io for IntelliJ projects
-/modules.xml
 /misc.xml
