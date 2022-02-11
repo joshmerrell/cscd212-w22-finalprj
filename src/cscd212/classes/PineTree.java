@@ -7,6 +7,7 @@ public class PineTree extends ChristmasTree {
     }
 
     public double cost(){
+
         return 59.99;
     }
 }
