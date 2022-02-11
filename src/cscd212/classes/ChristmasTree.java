@@ -1,7 +1,7 @@
 package cscd212.classes;
 
 public abstract class ChristmasTree {
-    String description = "Unknown type of tree";
+    String description = "Unknown tree type";
 
     public String getDescription() {
         return description;

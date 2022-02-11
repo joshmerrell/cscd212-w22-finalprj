@@ -8,6 +8,7 @@ public class LaughingEmoji extends TreeDecorator  {
     public LaughingEmoji(ChristmasTree christmasTree){
         this.christmasTree = christmasTree;
     }
+
     @Override
     public double cost() {
 

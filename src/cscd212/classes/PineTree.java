@@ -2,7 +2,6 @@ package cscd212.classes;
 
 public class PineTree extends ChristmasTree {
     public PineTree() {
-
         description = "Pine Tree";
     }
 
