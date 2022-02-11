@@ -1,5 +1,4 @@
 package cscd212.classes;
-import cscd212.abstractclasses.ChristmasTree;
 
 public class TreeDecorator extends ChristmasTree {
     private ChristmasTree tree;

@@ -1,4 +1,4 @@
-package cscd212.abstractclasses;
+package cscd212.classes;
 
 public abstract class ChristmasTree {
     String description = "Unknown type of tree";
