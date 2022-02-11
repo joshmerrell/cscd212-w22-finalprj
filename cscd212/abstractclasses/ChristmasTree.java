@@ -7,6 +7,4 @@ public abstract class ChristmasTree {
         return description;
     }
     public abstract double cost();
-    //public String decorate() {
-        //return null;
 }
