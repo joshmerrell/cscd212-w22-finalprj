@@ -1,3 +1,6 @@
+package cscd212.classes;
+import cscd212.interfaces.ChristmasTree;
+
 public abstract class TreeDecorator implements ChristmasTree {
     private ChristmasTree tree;
 

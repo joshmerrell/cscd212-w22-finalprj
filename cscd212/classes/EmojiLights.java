@@ -1,3 +1,6 @@
+package cscd212.classes;
+import cscd212.interfaces.ChristmasTree;
+
 public class EmojiLights extends TreeDecorator {
     public EmojiLights(ChristmasTree tree) {
         super(tree);
