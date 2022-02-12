@@ -7,22 +7,37 @@ import cscd212.decorator.Star;
 
 public class Main {
     public static void  main(String args[]){
-        ChristmasTree christmasTree = new PalmTree();
-        System.out.println(christmasTree.getDescription() + " $" + christmasTree.cost());
+        ChristmasTree palm1 = new PalmTree();
+        System.out.printf("%s (no decorations) cost: $%.2f\n", palm1.getDescription(), palm1.cost());
 
-        ChristmasTree christmasTree2 = new PineTree();
-        System.out.println(christmasTree2.getDescription() + " $" + christmasTree2.cost());
+        ChristmasTree palm2 = new PalmTree();
+        palm2 = new LaughingEmoji(palm2);
+        palm2 = new BoredEmoji(palm2);
+        palm2 = new Star(palm2);
+        System.out.printf("%s costs $%.2f\n", palm2.getDescription(), palm2.cost());
 
-        ChristmasTree christmasTree3 = new PalmTree();
-        christmasTree3 = new LaughingEmoji(christmasTree3);
-        christmasTree3 = new BoredEmoji(christmasTree3);
-        christmasTree3 = new Star(christmasTree3);
-        System.out.printf(christmasTree3.getDescription() + " $" + "%.2f", christmasTree3.cost());
-        System.out.print("\n");
 
-        ChristmasTree christmasTree4 = new PineTree();
-        christmasTree4 = new SmileEmoji(christmasTree4);
-        christmasTree4 = new Star(christmasTree4);
-        System.out.printf(christmasTree4.getDescription() + " $" + "%.2f", christmasTree4.cost());
+        ChristmasTree palm3 = new PalmTree();
+        palm3 = new LaughingEmoji(palm3);
+        palm3 = new BoredEmoji(palm3);
+        palm3 = new SmileEmoji(palm3);
+        palm3 = new Star(palm3);
+        System.out.printf("%s costs $%.2f\n\n", palm3.getDescription(), palm3.cost());
+
+
+        ChristmasTree pine1 = new PineTree();
+        System.out.printf("%s (no decorations) cost: $%.2f\n", pine1.getDescription(), pine1.cost());
+
+
+        ChristmasTree pine2 = new PineTree();
+        pine2 = new SmileEmoji(pine2);
+        pine2 = new Star(pine2);
+        System.out.printf("%s costs $%.2f\n", pine2.getDescription(), pine2.cost());
+
+        ChristmasTree pine3 = new PineTree();
+        pine3 = new Star(pine3);
+        System.out.printf("%s costs $%.2f\n", pine3.getDescription(), pine3.cost());
+
+
     }
 }
