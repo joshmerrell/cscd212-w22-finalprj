@@ -1,6 +1,6 @@
-package cscd212.decorator;
+package cscd212.christmasdecorator.decorator;
 
-import cscd212.classes.ChristmasTree;
+import cscd212.christmasdecorator.classes.ChristmasTree;
 
 public class LaughingEmoji extends TreeDecorator  {
     ChristmasTree christmasTree;

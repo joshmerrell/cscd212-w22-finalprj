@@ -1,9 +1,9 @@
-package cscd212.classes;
+package cscd212.christmasdecorator.classes;
 
-import cscd212.decorator.BoredEmoji;
-import cscd212.decorator.LaughingEmoji;
-import cscd212.decorator.SmileEmoji;
-import cscd212.decorator.Star;
+import cscd212.christmasdecorator.decorator.BoredEmoji;
+import cscd212.christmasdecorator.decorator.LaughingEmoji;
+import cscd212.christmasdecorator.decorator.SmileEmoji;
+import cscd212.christmasdecorator.decorator.Star;
 
 public class Main {
     public static void  main(String args[]){

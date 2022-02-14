@@ -1,5 +1,5 @@
-package cscd212.decorator;
-import cscd212.classes.ChristmasTree;
+package cscd212.christmasdecorator.decorator;
+import cscd212.christmasdecorator.classes.ChristmasTree;
 
 public class BoredEmoji extends TreeDecorator{
     ChristmasTree christmasTree;
