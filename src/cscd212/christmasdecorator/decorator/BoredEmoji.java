@@ -4,7 +4,7 @@ import cscd212.christmasdecorator.classes.ChristmasTree;
 public class BoredEmoji extends TreeDecorator{
     ChristmasTree christmasTree;
 
-    public BoredEmoji(ChristmasTree christmasTree){
+    public BoredEmoji(final ChristmasTree christmasTree){
         this.christmasTree = christmasTree;
     }
     @Override

@@ -5,7 +5,7 @@ import cscd212.christmasdecorator.classes.ChristmasTree;
 public class Star extends TreeDecorator{
     ChristmasTree christmasTree;
 
-    public Star(ChristmasTree christmasTree){
+    public Star(final ChristmasTree christmasTree){
         this.christmasTree = christmasTree;
     }
     @Override

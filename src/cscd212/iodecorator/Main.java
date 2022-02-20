@@ -37,7 +37,7 @@ public class Main {
         }
         System.out.printf("Upper case string from readArgs: %s\n", output);
     }
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         readNoArgs();
         readArgs();
      }

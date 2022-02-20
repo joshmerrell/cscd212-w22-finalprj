@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.InputStream;
 
 public class UpperCaseInputStream extends FilterInputStream {
-    public UpperCaseInputStream(InputStream in) {
+    public UpperCaseInputStream(final InputStream in) {
         super(in);
     }
 
@@ -17,7 +17,7 @@ public class UpperCaseInputStream extends FilterInputStream {
     }
 
     @Override
-    public int read(byte[] b, int offset, int len) throws IOException {
+    public int read(final byte[] b, final int offset, final int len) throws IOException {
         int result = super.read(b, offset, len);
         for(int i = offset; i < offset + result; i++) {
             b[i] = (byte)Character.toUpperCase((char)b[i]);

@@ -6,7 +6,7 @@ import cscd212.christmasdecorator.decorator.SmileEmoji;
 import cscd212.christmasdecorator.decorator.Star;
 
 public class Main {
-    public static void  main(String args[]){
+    public static void  main(final String args[]){
         ChristmasTree palm1 = new PalmTree();
         System.out.printf("%s (no decorations) cost: $%.2f\n", palm1.getDescription(), palm1.cost());
 
@@ -16,7 +16,6 @@ public class Main {
         palm2 = new Star(palm2);
         System.out.printf("%s costs $%.2f\n", palm2.getDescription(), palm2.cost());
 
-
         ChristmasTree palm3 = new PalmTree();
         palm3 = new LaughingEmoji(palm3);
         palm3 = new BoredEmoji(palm3);
@@ -24,10 +23,8 @@ public class Main {
         palm3 = new Star(palm3);
         System.out.printf("%s costs $%.2f\n\n", palm3.getDescription(), palm3.cost());
 
-
         ChristmasTree pine1 = new PineTree();
         System.out.printf("%s (no decorations) cost: $%.2f\n", pine1.getDescription(), pine1.cost());
-
 
         ChristmasTree pine2 = new PineTree();
         pine2 = new SmileEmoji(pine2);
@@ -37,7 +34,5 @@ public class Main {
         ChristmasTree pine3 = new PineTree();
         pine3 = new Star(pine3);
         System.out.printf("%s costs $%.2f\n", pine3.getDescription(), pine3.cost());
-
-
     }
 }

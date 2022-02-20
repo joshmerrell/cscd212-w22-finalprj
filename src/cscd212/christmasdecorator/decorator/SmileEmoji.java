@@ -5,7 +5,7 @@ import cscd212.christmasdecorator.classes.ChristmasTree;
 public class SmileEmoji extends TreeDecorator {
     ChristmasTree christmasTree;
 
-    public SmileEmoji(ChristmasTree christmasTree){
+    public SmileEmoji(final ChristmasTree christmasTree){
         this.christmasTree = christmasTree;
     }
 
